@@ -426,16 +426,14 @@ img {
   margin-bottom: 53px;
 }
 
-.hero__button {
-  border: none;
-  padding: 0;
-}
-
 .hero__span {
   padding: 0;
+  background-color: #33323d;
+  padding: 17px;
 }
 
 .hero__link {
+  display: inline-block;
   font-family: "Public Sans", sans-serif;
   font-weight: normal;
   -webkit-box-sizing: border-box;
@@ -444,9 +442,14 @@ img {
   line-height: 14px;
   text-align: center;
   letter-spacing: 2px;
+  padding: 17px 0;
   text-transform: uppercase;
   background-color: #203a4c;
   color: #ffff;
+}
+
+.hero__link-span {
+  padding: 0 20px;
 }
 
 @media only screen and (max-width: 1023px) {

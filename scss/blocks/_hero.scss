@@ -24,17 +24,14 @@
     margin-bottom: 53px;
   }
 
-  &__button {
-    border: none;
-    padding: 0;
-    // width: 200px;
-  }
-
   &__span {
     padding: 0;
+    background-color: #33323d;
+    padding: 17px;
   }
 
   &__link {
+    display: inline-block;
     font-family: "Public Sans", sans-serif;
     font-weight: normal;
     box-sizing: border-box;
@@ -42,9 +39,14 @@
     line-height: 14px;
     text-align: center;
     letter-spacing: 2px;
+    padding: 17px 0;
     text-transform: uppercase;
     background-color: #203a4c;
     color: #ffff;
+
+    &-span {
+      padding: 0 20px;
+    }
   }
 }
 
