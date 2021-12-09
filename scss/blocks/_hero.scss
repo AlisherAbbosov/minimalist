@@ -1,0 +1,131 @@
+.hero {
+  padding-bottom: 75px;
+  &__container {
+    position: relative;
+  }
+  &__box {
+    background-repeat: no-repeat;
+  }
+
+  &__wrapper {
+    position: absolute;
+    bottom: 0;
+    background-color: $whiteColor;
+    padding-top: 55px;
+    padding-right: 55px;
+    max-width: 445px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    margin-bottom: 53px;
+  }
+
+  &__button {
+    border: none;
+    padding: 0;
+    // width: 200px;
+  }
+
+  &__span {
+    padding: 0;
+  }
+
+  &__link {
+    font-family: "Public Sans", sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #203a4c;
+    color: #ffff;
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  .hero {
+    padding-bottom: 43px;
+    &__container {
+      position: relative;
+    }
+    &__box {
+      background-repeat: no-repeat;
+    }
+
+    &__wrapper {
+      padding-top: 55px;
+      padding-right: 55px;
+      max-width: 514px;
+    }
+
+    &__title {
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.357143px;
+      margin-bottom: 48px;
+    }
+
+    &__button {
+      border: none;
+      padding: 0;
+      // width: 200px;
+    }
+
+    &__span {
+      padding: 0;
+    }
+
+    &__link {
+      font-family: "Public Sans", sans-serif;
+      font-weight: normal;
+      box-sizing: border-box;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background-color: #203a4c;
+      color: #ffff;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .hero {
+    &__container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    &__box {
+      background-repeat: no-repeat;
+    }
+
+    &__wrapper {
+      position: relative;
+      padding-top: 24px;
+      padding-right: 0;
+      max-width: 514px;
+    }
+
+    &__title {
+      margin-bottom: 32px;
+    }
+
+    &__button {
+      border: none;
+      padding: 0;
+      // width: 200px;
+    }
+
+    &__span {
+      padding: 0;
+    }
+  }
+}

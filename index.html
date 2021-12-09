@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson</title>
-  <link rel="stylesheet" href="css/flexboxgrid.min.css">
-  <link rel="stylesheet" href="css/main.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson</title>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header></header>
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__box">
+            <img src="./img/hero-bg.png" alt="comp" />
+          </div>
+          <div class="hero__wrapper">
+            <h1 class="hero__title">
+              Hey, I’m Alex Spencer and I love building beautiful websites
+            </h1>
+            <button class="hero__button">
+              <span class="hero__span"
+                ><img
+                  class="hero_arrow"
+                  src="./img/hero-arrow.png"
+                  alt="#"
+                  height="12"
+                  width="16"
+              /></span>
+              <a class="hero__link" href="#">About me</a>
+            </button>
+          </div>
+        </div>
+      </section>
 
-  <script src="js/main.js"></script>
-</body>
+      <!-- About Section-->
+
+      <section class="about">
+        <div class="container about__container">
+          <img
+            class="about__img"
+            src="./img/about.png"
+            alt="Mans photo"
+            width="540"
+            height="600"
+          />
+          <div class="about__wrapper">
+            <hr />
+            <h2 class="about__title hero__title">About Me</h2>
+            <p class="about__text">
+              I’m a junior front-end developer looking for a new role in an
+              exciting company. I focus on writing accessible HTML, using modern
+              CSS practices and writing clean JavaScript. When writing
+              JavaScript code, I mostly use React, but I can adapt to whatever
+              tools are required. I’m based in London, UK, but I’m happy working
+              remotely and have experience in remote teams. When I’m not coding,
+              you’ll find me outdoors. I love being out in nature whether that’s
+              going for a walk, run or cycling. I’d love you to check out my
+              work.
+            </p>
+            <a class="about__button" href="#">Go to Portfolio</a>
+            <hr />
+          </div>
+        </div>
+      </section>
+
+      <!-- Interest Section -->
+
+      <section class="interest">
+        <div class="container interest__container">
+          <h2 class="interest__title">
+            Interested in doing a project together?
+          </h2>
+          <hr class="interest__hr" />
+          <button class="btn interest__btn">CONTACT ME</button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>

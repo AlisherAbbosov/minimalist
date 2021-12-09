@@ -1,0 +1,132 @@
+.about {
+  padding: 75px 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__wrapper {
+    padding: 0 120px;
+  }
+
+  &__title {
+    margin-top: 50px;
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    font-family: "Public Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    opacity: 0.8;
+  }
+
+  &__button {
+    display: inline-block;
+    margin-bottom: 46px;
+    @include btn;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .about {
+    padding: 75px 0;
+    &__container {
+      display: flex;
+      // max-width: 1110px;
+      justify-content: space-between;
+    }
+    &__img {
+      width: 281px;
+      height: 600px;
+    }
+    &__wrapper {
+      padding: 0 70px;
+    }
+
+    &__title {
+      margin-bottom: 28px;
+      font-size: 40px;
+      line-height: 42px;
+    }
+
+    &__text {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      margin-bottom: 24px;
+    }
+
+    &__button {
+      padding: 17px 32px;
+    }
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  .about {
+    padding: 48px 0;
+    &__container {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__img {
+      width: 281px;
+      height: 600px;
+    }
+    &__wrapper {
+      padding: 0 70px;
+    }
+
+    &__title {
+      margin-bottom: 28px;
+      font-size: 40px;
+      line-height: 42px;
+    }
+
+    &__text {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      margin-bottom: 24px;
+    }
+
+    &__button {
+      padding: 17px 32px;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .about {
+    padding: 48px 0;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &__img {
+      justify-content: center;
+      width: 311px;
+      height: 346px;
+      margin-bottom: 32px;
+    }
+    &__wrapper {
+      padding: 0;
+    }
+
+    &__title {
+      margin-top: 32px;
+      margin-bottom: 28px;
+      font-size: 40px;
+      line-height: 42px;
+    }
+
+    &__button {
+      padding: 17px 35px;
+      margin-bottom: 50px;
+    }
+  }
+}
